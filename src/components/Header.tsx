@@ -1,12 +1,12 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import { HomeIcon, File, UsersRound, LogOut } from "lucide-react";
-import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs";
+import Link from 'next/link'
+import { HomeIcon, File, UsersRound, LogOut } from 'lucide-react'
+import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs'
 
-import NavButton from "@/components/NavButton";
-import { ModeToggle } from "@/components/ModeToggle";
-import { Button } from "@/components/ui/button";
+import NavButton from '@/components/NavButton'
+import { ModeToggle } from '@/components/ModeToggle'
+import { Button } from '@/components/ui/button'
 
 export function Header() {
   return (
@@ -43,5 +43,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  );
+  )
 }

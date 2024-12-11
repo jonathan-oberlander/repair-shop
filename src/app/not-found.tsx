@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import Image from "next/image";
+import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Page Not Found",
-};
+  title: 'Page Not Found',
+}
 
 export default function NotFound() {
   return (
@@ -23,5 +23,5 @@ export default function NotFound() {
         />
       </div>
     </div>
-  );
+  )
 }

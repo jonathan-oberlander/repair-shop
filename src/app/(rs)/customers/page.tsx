@@ -1,9 +1,9 @@
-import type { Metadata } from "next/types";
+import type { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
-  title: "Customers",
-};
+  title: 'Customers',
+}
 
 export default function Customers() {
-  return <h2>Customers</h2>;
+  return <h2>Customers</h2>
 }

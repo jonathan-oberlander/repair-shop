@@ -1,9 +1,9 @@
-import type { Metadata } from "next/types";
+import type { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
-  title: "Home",
-};
+  title: 'Home',
+}
 
 export default function Home() {
-  return <h2>Home Page</h2>;
+  return <h2>Home Page</h2>
 }
